@@ -1,0 +1,31 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is my lab notebook, started on 4/14/2018, to get the code for the Upscaling organized and to track the changes to the analysis I'll make as we move into the final stages of manuscript prep. The goal of this notebook is to keep myself organized. 
+
+### 4/14/2018 - Project Creation
+Project created using rrtools (https://github.com/benmarwick/rrtools) and associated setup functions. Project structure is similar but not exactly the same as their suggested structure.
+
+Explanation for project structure:
+
+**R** - contains all R codes including:
+
+* my_functions.R - user-defined R functions to perform various analyses/tasks
+* machine_learning.R - step 1 of analysis: creating machine learning model to predict monthly GPP (flux towers)
+* regional_upscaling.R - step 2 of analysis: upscaling gridded inputs (regional) using model in step 1
+* global_upscaling.R - step 3 of analysis: upscaling globally
+
+**cache** - folder for all intermediate files including data, figures, and tables
+
+**analysis** - contains information for the paper including: 
+
+* data
+    + derived_data (data used in final & supplementary figs)
+    + raw_data 
+* figures (final figures)
+* paper (the paper!)
+* templates (this is for the references)
+
+**---------------------------------------------------------------------------------------------------------------------**
