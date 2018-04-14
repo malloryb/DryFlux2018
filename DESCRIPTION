@@ -1,0 +1,11 @@
+Package: Dryflux2018
+Title: Upscaling Carbon Fluxes to the Southwest and the Globe
+Version: 0.0.0.9000
+Authors@R: person("Mallory", "Barnes", email = "mallory.L.barnes@gmail.com", role = c("aut", "cre"))
+Description: This package is for the analysis for the DryFlux carbon flux product (see paper: Barnes et al. 2018...). This includes flux data processing, remote sensing data processing, meterological data processing, random forest model generation, upscaling to the SW region (1 km) and upscaling to the globe (0.5 degree). 
+Depends: R (>= 3.3.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: devtools::use_package("dplyr", "caret", "raster", "randomForest", "ggplot2", "ggthemes"),
+    bookdown
