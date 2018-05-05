@@ -1,3 +1,7 @@
+#this is a growing list of the user-defined functions for this package in R.
+#Describe functions and also make sure dependencies are included within function
+
+
 Aggregate_monthly <- function(x) {
 
 
